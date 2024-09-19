@@ -1,6 +1,6 @@
-package org.example.HW1;
+package org.example.HW1.point;
 
-public class Point implements Movable{
+public class Point implements Movable {
     private int X;
     private int Y;
 
@@ -22,21 +22,26 @@ public class Point implements Movable{
 
     @Override
     public void moveUp() {
-
+        Y += 1;
     }
 
     @Override
     public void moveDown() {
-
+        Y -= 1;
     }
 
     @Override
     public void moveLeft() {
-
+        X -= 1;
     }
 
     @Override
     public void moveRight() {
+        X += 1;
+    }
 
+    @Override
+    public void print(String message) {
+        System.out.println(message + ": " + this);
     }
 }

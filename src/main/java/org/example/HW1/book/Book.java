@@ -31,8 +31,8 @@ public class Book implements Displayable {
 
     @Override
     public void display() {
-        System.out.println("This book is " + this.Name);
-        System.out.println("The author is " + this.Author);
-        System.out.println("Publication year is " + this.PublishYear);
+        System.out.println("This book is " + getName());
+        System.out.println("The author is " + getAuthor());
+        System.out.println("Publication year is " + getPublishYear());
     }
 }

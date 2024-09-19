@@ -31,8 +31,8 @@ public class Student implements Printable{
 
     @Override
     public void print() {
-        System.out.println("Student name is " + this.Name);
-        System.out.println("Record book number is " + this.BookNumber);
-        System.out.println("Average mark is " + this.AvgMark);
+        System.out.println("Student name is " + getName());
+        System.out.println("Record book number is " + getBookNumber());
+        System.out.println("Average mark is " + getAvgMark());
     }
 }
