@@ -1,6 +1,6 @@
-package org.example.HW1;
+package org.example.HW1.book;
 
-public class Book implements Displayable{
+public class Book implements Displayable {
     private String Name;
     private String Author;
     private int PublishYear;

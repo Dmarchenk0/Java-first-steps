@@ -1,6 +1,6 @@
  package org.example;
 
- import org.example.HW1.Book;
+ import org.example.HW1.book.Book;
 
  public class Main {
     public static void main(String[] args) {
